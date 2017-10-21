@@ -1,0 +1,255 @@
+.content {
+  background-image: url(../images/ep_naturalblack.png);
+}
+
+.width {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.containerLeft {
+  margin-top: 10px;
+  margin-left: -10px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dddddd;
+}
+
+.containerRight {
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-right: 10px;
+  margin-bottom: 300px;
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+.col-4 {
+  width: 250px;
+  align-items: center;
+}
+
+.image {
+  width: 270px;
+  height: 200px;
+  margin: 10px;
+  position: relative;
+  float: left;
+}
+
+.image2 {
+  width: 270px;
+  height: 200px;
+  margin: 10px;
+  position: relative;
+  float: right;
+}
+.links {
+  text-decoration: none;
+  color: #777777;
+  font-size: 1em;
+}
+
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.me {
+  float: left;
+  height: 234px;
+  width: 191px;
+  margin: 10px;
+}
+
+#header {
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  overflow: hidden;
+  width: 100%;
+}
+
+#title-area {
+  display: block;
+  line-height: 108px;
+  height: 108px;
+  width: 30%;
+  float: left;
+  color: #ffffff;
+  background-color: #4aaaa5;
+}
+
+#sticky {
+  width:100%;
+  height:44px;
+  padding-top:20px;
+  background:black;
+  color:white;
+  font-size:12px;
+  border-top: solid;
+  border-color: #4aaaa5;
+  border-width: 5px;
+  text-align:center;
+  position:fixed;    /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the window*/
+  left:0;
+          /*and to the left of the window.*/
+}
+
+h4 {
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  width: 270px;
+
+
+}
+
+h4 span {
+  color: #ffffff;
+  text-align: center;
+  width: 270px;
+  font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 85px;
+  padding-right: 84px;
+}
+
+nav {
+  line-height: 108px;
+  height: 108px;
+  float: right;
+  width: 65%:
+}
+
+li a {
+  display: inline;
+  width: 65%;
+}
+nav li {
+  display: inline;
+}
+
+nav ul {
+  text-align: justify;
+}
+
+nav ul:after {
+  content:'';
+  display: inline-block;
+  width: 100%;
+  height: 0;
+}
+
+nav a {
+  padding: 2em 1.5em;
+}
+span a {
+  text-decoration: none;
+  color: #ffffff;
+}
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+h1, h2, h3 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2, h3 {
+  color: #4aaaa5
+}
+p {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  line-height: normal;
+}
+
+body {
+  background-image: url("./assets/images/ep_naturalblack.png");
+}
+
+button {
+  height: 40px;
+  width: 115px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+}
+
+.github {
+ float: left;
+ width: 60px;
+ height: 60px;
+ display:block;
+ margin: 5px;
+ background:transparent url('../images/githubIcon.png') center top no-repeat;
+}
+
+.github:hover {
+  width: 60px;
+  height: 60px;
+  display: block;
+   background-image: url('../images/githubHover.png');
+}
+
+.linkedin {
+  float: left;
+  width: 60px;
+  height: 60px;
+  display:block;
+  margin: 5px;
+  background:transparent url('../images/linkedinIcon.png') center top no-repeat;
+}
+
+.linkedin:hover {
+  width: 60px;
+  height: 60px;
+  display: block;
+   background-image: url('../images/linkedinHover.png');
+}
+
+.stack {
+  float: left;
+  width: 60px;
+  height: 60px;
+  display:block;
+  margin: 5px;
+  background:transparent url('../images/overflowIcon.png') center top no-repeat;
+}
+
+.stack:hover {
+  width: 60px;
+  height: 60px;
+  display: block;
+   background-image: url('../images/StackHover.png');
+}
