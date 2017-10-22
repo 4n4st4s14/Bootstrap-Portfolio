@@ -76,6 +76,7 @@
   height: 234px;
   width: 191px;
   margin: 10px;
+  float: left;
 }
 
 #header {
