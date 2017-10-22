@@ -12,51 +12,63 @@
 
 <body class="content">
 
-  <header >
+  <header>
     <div id="header">
-      <div class="wrap">
-        <div id="title-area">
-          <h1 id="title">&nbsp;&nbsp;&nbsp;Anastasia Lucas</h1>
+      <nav class="row navbar navbar-expand-lg navbar-light ">
+        <div class="col-1"></div>
+        <div class="col-3">
+<a class="navbar-brand " href="./index.html" style="color:#fff; ">&nbsp;&nbsp;Anastasia Lucas</a>
         </div>
+        <div class="col-4">
+        </div>
+<div class="col-6 d-flex flex-row-reverse collapse navbar-collapse" id="navbarNav">
+  <ul class="navbar-nav">
 
-        <nav>
-          <ul>
-            <li><a class="links" href="./index.html">About</a></li>
-            <li><a class="links" href="./portfolio.html">Portfolio</a></li>
-            <li><a class="links" href="./contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+    <li class="nav-item">
+      <a class="nav-link" href="./index.html">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./portfolio.html">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./contact.html">Contact</a>
+    </li>
+
+  </ul>
+</div>
+</nav>
     </div>
   </header>
-
+  <div class="container">
 <section class="width">
-  <div class="containerLeft">
+  <div class="row ">
+  <div class="containerLeft col-7">
     <h2>Contact</h2>
     <hr>
 
       <form method="POST" action="http://formspree.io/ana2.0stasia@gmail.com">
         <br>
         <p>Name</p><br>
-        <input type="text" name="name" placeholder="Your Name Here" style="height: 32px; width: 572px;"><br><br>
+        <input type="text" name="name" placeholder="Your Name Here" style="height: 32px; width: 530px; border-style:solid; border-color: #eee;"><br><br>
         <p>Email</p><br>
-        <input type="email" name="email" placeholder="Your Email Here" style="height: 32px; width: 572px;"><br><br>
+        <input type="email" name="email" placeholder="Your Email Here" style="height: 32px; width: 530px; border-style:solid; border-color: #eee;"><br><br>
         <p>Message</p><br>
-        <textarea name="message" placeholder="Your message" style="height: 188px; width: 572px;"></textarea><br><br>
+        <textarea name="message" placeholder="Your message" style="height: 188px; width: 530px; border-style:solid; border-color: #eee;"></textarea><br><br>
         <button type="submit">Submit</button>
       </form>
   </div>
 
-  <div class="containerRight">
+  <div class="containerRight col-4-auto" style="margin-bottom: auto;">
     <h3>Connect With Me</h3>
       <hr>
       <a href="https://github.com/4n4st4s14" target="_blank" class="github" title="github link"></a>
       <a href="https://www.linkedin.com/in/anastasia-lucas-316a6aab/" target="_blank" class="linkedin" title="linkedin link"></a>
       <a href="https://stackoverflow.com/users/7253434/aisatsana102" target="_blank" class="stack" title="Stack Overflow link"></a>
   </div>
-          <br><br><br><br><br>
-</section>
 
+        </div>
+</section>
+</div>
 <footer id="sticky"> &copy; Anastasia Lucas, 2017</footer>
 </body>
 

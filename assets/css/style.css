@@ -10,6 +10,10 @@
 
 .navbar {
   width: 100%;
+  margin: 0px;
+  background-color: #fff;
+  color: #fff;
+
 }
 
 .navbar-brand {
@@ -17,6 +21,13 @@
   background-color: #4aaaa5;
   color: #ffffff;
   font-size: 2em;
+  height: 100%;
+  padding: 5vh;
+  border-style: solid;
+  border-color: #4aaaa5;
+  border-width: 5px;
+
+
 }
 
 .containerLeft {
@@ -41,24 +52,22 @@
   border-width: 2px;
   background-color: #ffffff;
   border-color: #dddddd;
+  display: inline-block;
 }
 
-.col-4 {
-  width: 250px;
-  align-items: center;
-}
+
 
 .image {
-  width: 270px;
-  height: 200px;
+  width: 250px;
+  height: 182px;
   margin: 10px;
   position: relative;
   float: left;
 }
 
 .image2 {
-  width: 270px;
-  height: 200px;
+  width: 250px;
+  height: 182px;
   margin: 10px;
   position: relative;
   float: right;
@@ -88,20 +97,12 @@
   width: 100%;
 }
 
-#title-area {
-  display: block;
-  line-height: 108px;
-  height: 108px;
-  width: 30%;
-  float: left;
-  color: #ffffff;
-  background-color: #4aaaa5;
-}
 
 #sticky {
   width:100%;
-  height:44px;
+  height:60px;
   padding-top:20px;
+  padding-bottom: 20px;
   background:black;
   color:white;
   font-size:12px;
@@ -132,43 +133,25 @@ h4 span {
   background-color: #4aaaa5;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 85px;
-  padding-right: 84px;
+  padding-left: 66px;
+  padding-right: 65px;
 }
 
-nav {
-  line-height: 108px;
-  height: 108px;
-  float: right;
-  width: 65%:
-}
 
 li a {
   display: inline;
   width: 65%;
 }
-nav li {
-  display: inline;
-}
 
-nav ul {
-  text-align: justify;
-}
-
-nav ul:after {
-  content:'';
-  display: inline-block;
-  width: 100%;
-  height: 0;
-}
-
-nav a {
-  padding: 2em 1.5em;
-}
 span a {
   text-decoration: none;
   color: #ffffff;
 }
+
+span a:hover {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 2em;
 }
