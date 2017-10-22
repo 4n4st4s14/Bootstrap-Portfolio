@@ -31,11 +31,11 @@
 }
 
 .containerLeft {
-  margin-top: 10px;
+  /*margin-top: 10px;
   margin-left: -10px;
   margin-right: 20px;
   margin-bottom: 100px;
-  padding: 20px;
+  padding: 20px; */
   background-color: #ffffff;
   border-style: solid;
   border-width: 2px;
@@ -43,11 +43,11 @@
 }
 
 .containerRight {
-  margin-top: 10px;
+  /*margin-top: 10px;
   margin-left: 60px;
   margin-right: 10px;
   margin-bottom: 300px;
-  padding: 20px;
+  padding: 20px;*/
   border-style: solid;
   border-width: 2px;
   background-color: #ffffff;
@@ -71,13 +71,8 @@
   font-size: 1em;
 }
 
-.wrap {
-  width: 960px;
-  margin: 0 auto;
-}
 
 .me {
-  float: left;
   height: 234px;
   width: 191px;
   margin: 10px;
