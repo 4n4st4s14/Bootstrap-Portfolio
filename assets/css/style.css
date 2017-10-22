@@ -52,7 +52,7 @@
   border-width: 2px;
   background-color: #ffffff;
   border-color: #dddddd;
-  display: inline-block;
+
 }
 
 
@@ -62,16 +62,9 @@
   height: 182px;
   margin: 10px;
   position: relative;
-  float: left;
+
 }
 
-.image2 {
-  width: 250px;
-  height: 182px;
-  margin: 10px;
-  position: relative;
-  float: right;
-}
 .links {
   text-decoration: none;
   color: #777777;
