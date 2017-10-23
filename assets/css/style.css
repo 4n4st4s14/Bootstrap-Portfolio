@@ -2,6 +2,23 @@
   background-image: url(../images/ep_naturalblack.png);
 }
 
+.caption {
+  width: 100%;
+  bottom: .3rem;
+  position: absolute;
+  background-color: #4aaaa5;
+}
+
+.thumbnail {
+  border: 0 none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+.caption h4 {
+  color: #fff;
+}
 .width {
   width: 960px;
   margin-left: auto;
@@ -82,28 +99,6 @@ a {
 
 a:hover {
   text-decoration: none;
-}
-
-h4 {
-  position: absolute;
-  top: 35px;
-  left: 10px;
-  width: auto;
-  color: #fff;
-}
-
-
-
-h4 span {
-  color: #ffffff;
-  text-align: center;
-  width: auto;
-  font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  background-color: #4aaaa5;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 66px;
-  padding-right: 65px;
 }
 
 
