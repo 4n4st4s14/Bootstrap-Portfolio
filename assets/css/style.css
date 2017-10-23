@@ -13,7 +13,7 @@
   margin: 0px;
   background-color: #fff;
   color: #fff;
-
+  margin-bottom: 25px;
 }
 
 .navbar-brand {
@@ -23,11 +23,6 @@
   font-size: 2em;
   height: 100%;
   padding: 5vh;
-  border-style: solid;
-  border-color: #4aaaa5;
-  border-width: 5px;
-
-
 }
 
 .containerLeft {
@@ -55,14 +50,11 @@
 
 }
 
-
-
 .image {
   width: 250px;
   height: 182px;
   margin: 10px;
   position: relative;
-
 }
 
 .links {
@@ -79,12 +71,12 @@
   float: left;
 }
 
-#header {
+/*#header {
   background-color: #ffffff;
   margin-bottom: 25px;
   overflow: hidden;
   width: 100%;
-}
+} */
 
 
 h4 {
@@ -108,20 +100,6 @@ h4 span {
   padding-right: 65px;
 }
 
-
-li a {
-  display: inline;
-  width: 65%;
-}
-
-span a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-span a:hover {
-  text-decoration: none;
-}
 
 h1 {
   font-size: 2em;
