@@ -1,5 +1,6 @@
 .content {
   background-image: url(../images/ep_naturalblack.png);
+  z-index: -1;
 }
 
 .caption {
@@ -7,6 +8,7 @@
   bottom: .3rem;
   position: absolute;
   background-color: #4aaaa5;
+
 }
 
 .thumbnail {
