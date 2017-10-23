@@ -51,8 +51,8 @@
 }
 
 .image {
-  width: 250px;
-  height: 182px;
+  width: 270px;
+  height: 196px;
   margin: 10px;
   position: relative;
 }
@@ -71,27 +71,33 @@
   float: left;
 }
 
-/*#header {
-  background-color: #ffffff;
-  margin-bottom: 25px;
-  overflow: hidden;
-  width: 100%;
-} */
+@media  (min-width: 768px)
+.col-md-4 {
+  max-width: none;
+}
 
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
 
 h4 {
   position: absolute;
   top: 35px;
   left: 10px;
-  width: 270px;
-
-
+  width: 100%;
+  color: #fff;
 }
+
+
 
 h4 span {
   color: #ffffff;
   text-align: center;
-  width: 270px;
+  width: 100%;
   font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-color: #4aaaa5;
   padding-top: 10px;
